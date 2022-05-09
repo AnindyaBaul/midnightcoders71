@@ -1,0 +1,199 @@
+body {
+    background-color: black !important;
+}
+
+footer {
+    background-color: black;
+    height: 150px;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.earth {
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+}
+
+.img {
+
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    bottom: 2px;
+
+}
+
+.later {
+    letter-spacing: 8px;
+
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.icons a {
+    color: wheat;
+    text-decoration: none;
+
+
+}
+
+.icons {
+    position: relative;
+    top: 30px;
+
+}
+
+.later p {
+    position: relative;
+    top: 7px;
+}
+
+.search-area input {
+    background: transparent !important;
+    border-color: wheat;
+    color: wheat !important;
+    outline: 1px solid wheat !important;
+    border-radius: 13px;
+}
+
+.search-area button {
+    color: wheat;
+    border-color: wheat;
+    border-radius: 15px;
+
+}
+
+.search-area button:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.logo {
+    transform: scale(1.3);
+    margin-left: 13px;
+
+}
+
+
+nav {
+    background-color: black !important;
+    color: wheat;
+
+
+}
+
+nav a {
+    text-decoration: none !important;
+    color: wheat !important;
+    margin-left: 100px;
+}
+
+.services li {
+    background-color: black;
+    text-align: left !important;
+    padding: 10px;
+
+}
+
+.services .srv a:hover {
+    background-color: wheat !important;
+    color: black !important;
+}
+
+.services {
+    background-color: black !important;
+
+}
+
+.services a {
+    margin: 0 !important;
+}
+
+.transparent-banner {
+    height: 700px;
+    background-color: rgba(7, 7, 7, 0.617);
+
+
+}
+.sec1-bg{
+    background: url(./image/earth-bg.jpg)no-repeat center fixed;
+    height: 700px;
+   
+
+}
+.sec1-img{
+    height: 700px;
+    background-color: rgba(192, 192, 192, 0.132);
+    justify-content: space-around;
+}
+
+
+.ftr-card {
+    background: url(./image/metallic-background.jpg) no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: 250px;
+    border: 3px solid silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(0, 0, 0, 0.316); */
+    box-shadow: 0 0 30px silver;
+    color: wheat;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.ftr-card h3 {
+    color:black;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.btop {
+    width: 80px;
+    border: 3px solid silver;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.ftr-card p {
+    color: silver;
+    text-align: center;
+}
+
+.ftr-card button {
+    border-color: silver;
+    background-color: transparent;
+    color: wheat;
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+    display: block;
+    margin: auto;
+    letter-spacing: 5px;
+}
+
+.ftr-card button:hover {
+    background-color: silver;
+    color: black;
+}
+.ftr-card img{
+    width: 114px;
+     height: 91px;
+    
+}
+
