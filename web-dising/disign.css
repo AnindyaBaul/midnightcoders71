@@ -129,13 +129,15 @@ nav a {
 .sec1-bg{
     background: url(./image/earth-bg.jpg)no-repeat center fixed;
     height: 700px;
-   
+   /* margin-top: 150px; */
+   /* padding-top: 100px; */
 
 }
 .sec1-img{
     height: 700px;
     background-color: rgba(192, 192, 192, 0.132);
     justify-content: space-around;
+    padding-top: 100px;
 }
 
 
@@ -196,4 +198,84 @@ nav a {
      height: 91px;
     
 }
+.car-bg{
+    background: url(./greg-rosenke-6QnEf_b47eA-unsplash.jpg) no-repeat!important;
+    background-size: 50%!important;
+}
+.sec-cars{
+    font-family: 'Poppins', sans-serif;
+    height: 400px;
+}
+.cars1-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 7px;
+    width: 70%;
+
+}
+.cars1-img img{
+    width: 100%;
+
+}
+.c1-text{
+    color: wheat;
+    width: 1000px;
+}
+.special{
+    height: 100%;
+}
+.car-next{
+    color: red!important;
+}
+.orange{
+    color:#EC5C7D;
+    font-weight: 900;
+}
+footer{
+    background-color: black;
+    height: 150px;
+    color: wheat!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    }
+    
+    
+    .earth{
+    
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    
+    }
+    .img{
+    
+    border-radius: 50%;
+    height:15px;
+    width: 15px;
+    position: relative ;
+    bottom: 2px;
+    
+    }
+    .later{
+    letter-spacing: 8px;
+    
+    }
+    .border{
+        border: 2px solid red;
+    }
+    .icons a{
+        color: wheat;
+        text-decoration: none;
+        
+        
+    }
+    .icons{
+        position: relative;
+        top: 30px;
+      
+    }
+    
 
