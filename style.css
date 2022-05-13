@@ -96,7 +96,7 @@ nav {
 nav a {
     text-decoration: none !important;
     color: wheat !important;
-    margin-left: 100px;
+    margin-left: 65px;
 }
 
 .services li {
@@ -226,7 +226,7 @@ nav a {
 }
 
 .dev-card {
-    height: 700px;
+    height: 750px;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -239,8 +239,94 @@ nav a {
 
 }
 
+#client-h1{
+    text-align: center; font-size: 70px; font-weight: 900; color: aliceblue; margin-bottom: 150px; position: relative; top: 100px; 
+} 
+
+.user-review {
+    background: url(./web-dising/vector-JUL-2020-131.jpg)no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.review-dtl {
+    width: 40%;
+}
+.review-dtl small {
+    color: #EC5C7D;
+    text-transform: uppercase;
+}
+
+.review-dtl .fa-star {
+    position: relative;
+    font-size: 10px;
+    top: 6px;
+}
+
+.review-dtl .fa-star-half-stroke {
+    position: relative;
+    font-size: 10px;
+    top: 6px;
+}
+
+.review-dtl p {
+    text-align: justify;
+}
+
+.review-dtl p {
+    color: aliceblue;
+}
+
+.review-dtl h1 {
+    color: aliceblue;
+}
+
+.review-dtl p>i {
+    position: relative;
+    bottom: 15px;
+    font-size: 30px;
+}
+
+
+
+.review-video {
+    height: 300px;
+    width: 300px;
+    border: 8px solid silver;
+
+    box-shadow: 0 0 20px silver;
+
+}
+
+.review-video video {
+    width: 100%;
+    height: 100%;
+
+}
+
+.review-img {
+    height: 100px;
+    width: 100px;
+
+}
+
+.review-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.Ratings i {
+    color: wheat;
+}
+
+
 .section-card {
-    background: url(./image/862304.jpg);
+    background: url(./image/862304.png)no-repeat;
     background-size: 100%;
 }
 
@@ -849,6 +935,106 @@ footer {
         margin: 0;
     }
 
+    .car-m{
+        width: 100%!important;
+        
+    }
+
+    .user-review {
+        background: url(./web-dising/rotrd.jpg);
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        /* margin-top: 100px; */
+        padding-top: 0;
+        /* padding-bottom: 70px; */
+    }
+
+    #client-h1{
+        text-align: center; font-size: 50px; font-weight: 900; color: aliceblue; margin-bottom: 150px; position: relative; top: 100px; "
+    } 
+    
+.review-dtl {
+    width: 100%;
+}
+.review-dtl small {
+    color: #EC5C7D;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.review-dtl .fa-star {
+    position: relative;
+    font-size: 10px;
+    top: 6px;
+}
+
+.review-dtl .fa-star-half-stroke {
+    position: relative;
+    font-size: 10px;
+    top: 6px;
+}
+
+.review-dtl p {
+    text-align: justify;
+    padding-inline: 20px;
+}
+
+.review-dtl p {
+    color: aliceblue;
+}
+
+.review-dtl h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.review-dtl p>i {
+    position: relative;
+    bottom: 15px;
+    font-size: 30px;
+}
+
+
+
+.review-video {
+    height: 300px;
+    width: 100%;
+    border: 8px solid silver;
+    box-shadow: 0 0 20px silver;
+
+}
+
+.review-video video {
+    width: 100%;
+    height: 100%;
+
+}
+
+.review-img {
+    height: 100px;
+    width: 100%;
+    display:flex;
+justify-content: center;
+margin-top: 40px;
+
+}
+
+.review-img img {
+    width: 35%;
+    border-radius: 50%;
+}
+
+.Ratings i {
+    color: wheat;
+}
+
+
+
+
     .animation1 {
         background: url(./image/F9Jr.gif)no-repeat;
         height: 120px;
@@ -951,4 +1137,3 @@ footer {
     }
 
 }
-

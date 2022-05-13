@@ -1,5 +1,6 @@
 body {
     background-color: black !important;
+    color: aliceblue!important;
 }
 
 footer {
@@ -139,6 +140,60 @@ nav a {
     justify-content: space-around;
     padding-top: 100px;
 }
+.tec-bg{
+    background:url(./BZYUrG.jpg);
+    height: 400px;
+    background-size: 100%;
+}
+.color-bg{
+    background-color: rgba(192, 192, 192, 0.153);
+}
+.tec-bg-color{
+    /* background-color:rgba(192, 192, 192, 0.096); */
+  
+    height: 400px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(8,1fr);
+    width: 80%;
+    margin: auto;
+
+   
+}
+.tec-bg-color img:{
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.logo-png-chobi{
+    height:80px;
+    width: 80px;
+    /* background-color: ; */
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 0 0 20px white;
+
+}
+
+
+.logo-png-chobi img{
+    width: 55%;
+    height: 55%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
 
 
 .ftr-card {
@@ -277,5 +332,57 @@ footer{
         top: 30px;
       
     }
+.user-review{
+    background: url(./vector-JUL-2020-131.jpg)no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.review-dtl{
+    width:40% ;
+}
+
+.review-dtl p{
+  text-align: justify;  
+}
+.review-dtl p>i{
+   position: relative;
+   bottom: 15px;
+   font-size: 30px;
+}
+
+
+
+  .review-video{
+      height:300px;
+      width: 300px ;
+      border: 8px solid silver;
+      /* border-radius: 50%; */
+      /* overflow: hidden; */
+      box-shadow: 0 0 20px silver;
+
+  }
+  .review-video video{
+      width:100%;
+      height: 100%;
+  
+  }
+  .review-img{
+      height:100px;
+      width:100px;
+     
+  }
+  .review-img img{
+      width: 100%;
+      border-radius:50%;
+  }
+  .Ratings i{
+      color: wheat;
+  }
+
     
 
